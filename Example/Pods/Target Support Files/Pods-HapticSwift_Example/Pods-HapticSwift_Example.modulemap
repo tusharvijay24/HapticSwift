@@ -1,0 +1,6 @@
+framework module Pods_HapticSwift_Example {
+  umbrella header "Pods-HapticSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

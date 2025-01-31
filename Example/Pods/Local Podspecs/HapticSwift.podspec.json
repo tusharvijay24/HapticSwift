@@ -1,0 +1,22 @@
+{
+  "name": "HapticSwift",
+  "version": "0.1.0",
+  "summary": "A short description of HapticSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tusharvijay24/HapticSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tusharvijay24": "tusharvijayvargiya24112000@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tusharvijay24/HapticSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HapticSwift/Classes/**/*"
+}

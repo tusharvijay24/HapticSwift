@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import HapticSwift
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var btnHaptic: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        btnHaptic.layer.cornerRadius = 5
+        HapticSwift.enableDebugMode(true)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func didTapPlayHaptic(_ sender: UIButton) {
+        HapticSwift.trigger(.medium)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            HapticSwift.trigger(.custom(intensity: 0.8, duration: 0.5))
+        }
     }
-
 }
-

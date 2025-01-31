@@ -1,0 +1,16 @@
+PODS:
+  - HapticSwift (0.1.0)
+
+DEPENDENCIES:
+  - HapticSwift (from `../`)
+
+EXTERNAL SOURCES:
+  HapticSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HapticSwift: f08784b2355782e68afc8c01104696fe06a5af28
+
+PODFILE CHECKSUM: 91b4bf33ba6009f2b4dd881d73d4564b6d50dc98
+
+COCOAPODS: 1.16.2

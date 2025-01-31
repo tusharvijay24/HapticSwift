@@ -1,0 +1,6 @@
+framework module HapticSwift {
+  umbrella header "HapticSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
